@@ -1,0 +1,88 @@
+/* styles/globals.css */
+
+/* Reset básico y fuente */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+  }
+  
+  /* NAVBAR */
+  nav {
+    background-color: #1e1e1e;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  nav a {
+    color: white;
+    margin-right: 1rem;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* CONTENEDOR GENERAL */
+  .container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+  }
+  
+  /* FORMULARIOS */
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  form input {
+    margin-bottom: 1rem;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  form label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  form button {
+    background-color: #0070f3;
+    color: white;
+    border: none;
+    padding: 0.75rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  form button:hover {
+    background-color: #005bb5;
+  }
+  
+  /* DASHBOARD */
+  .dashboard {
+    text-align: center;
+  }
+  
+  .dashboard h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .dashboard p {
+    font-size: 1.2rem;
+  }
+  
